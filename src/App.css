@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+/* HOME */
+
+
+.homeTitle{
+    color: #08404D;
+    background-color: #4AC068;
+    font-size: 25px;
+    text-align: center;
+    padding: 50px;
+  
+  
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  
+  .homeImage{
+ 
+    height: 530px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    
+    
+  
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+  .button{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #08404D;
+    font-family: Georgia;
+    font-size: 24px;
+    font-weight: 100;
+    padding: 17px;
+    background-color: #4AC068;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    
+ }
+
+ .button-position{
+    
+        display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+        align-content: center;
+        
+        
+    
+ }
+
+
+ /* PEOPLE LIST */
+
+
+ .icon-button{
+     width: 50px;
+
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #08404D;
+    font-family: Georgia;
+    font-size: 24px;
+    font-weight: 100;
+    padding: 17px;
+    background-color: #4AC068;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    
+    
+    
+ }
+
+/* PEOPLE LIST */
+
+.people-list{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+    align-content: center;
+    
+
 }
+
+
+.search{
+  
+    height: 30px;
+    width: 300px;
+    
+    
+
+  
+ 
+    
+    
+
+}
+
+.myLeague-title{
+    color: #08404D;
+    background-color: #4AC068;
+    font-size: 25px;
+    text-align: center;
+    padding: 50px;
+
+
+
+}
+
+ 
+.button-list{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    color: #08404D;
+    font-family: Georgia;
+    font-size: 24px;
+    font-weight: 100;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    
+ }
